@@ -24,7 +24,6 @@ El objetivo del proyecto es ofrecer una web informativa sobre:
 
 > No se ha utilizado JavaScript ni frameworks externos.
 # Estructura del proyecto
-.
 ├── index.html
 
 ├── contacto.html
