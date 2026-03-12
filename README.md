@@ -23,13 +23,20 @@ El objetivo del proyecto es ofrecer una web informativa sobre:
 - **Google Maps Embed**
 
 > No se ha utilizado JavaScript ni frameworks externos.
-# 📂 Estructura del proyecto
+# Estructura del proyecto
 .
 ├── index.html
+
 ├── contacto.html
+
 ├── galeria.html
+
 ├── medidas.html
+
 ├── consejos.html
+
 ├── ue2030.html
+
 ├── estilos.css
+
 └── img/
