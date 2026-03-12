@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <div id="header">
+    <div class="header-content">
+        <h1>Contacte del Ajuntament</h1>
+    </div>
+    <img src="img/escudo.png" alt="Escudo del ayuntamiento" class="escudo"/>
+</div>
+
+    <!-- MENÚ -->
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="contacto.html">Contacte</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="medidas.html">Mesures</a></li>
+            <li><a href="consejos.html">Consells</a></li>
+            <li><a href="ue2030.html">UE i Agenda 2030</a></li>
+        </ul>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div id="contenido">
+        <!-- DATOS DE CONTACTO -->
+<p>Aquestes són les dades de contacte de l’Ajuntament de Granollers:</p>
+
+<ul>
+    <li><strong>Dirección:</strong> Plaça de la Porxada, 08401 Granollers</li>
+    <li><strong>Teléfono:</strong> 93 842 66 66</li>
+    <li><strong>Email:</strong> ajuntament@granollers.cat</li>
+    <li><strong>Horario:</strong> De lunes a viernes, de 9:00 a 14:00</li>
+</ul>
+
+<!-- TABLA DE CONTACTO -->
+<h3>Información resumida</h3>
+
+<table border="1">
+    <tr>
+        <th>Departament</th>
+        <th>Telèfon</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Medi Ambient</td>
+        <td>93 842 66 66</td>
+        <td>mediambient@granollers.cat</td>
+    </tr>
+    <tr>
+        <td>Atenció Ciutadana</td>
+        <td>93 842 66 66</td>
+        <td>informacio@granollers.cat</td>
+    </tr>
+</table>
+<!-- MAPA DEL AYUNTAMIENTO -->
+<h3>Ubicació al mapa</h3>
+
+<p>A continuació pots veure la ubicació de l’Ajuntament de Granollers:</p>
+
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.392663836525!2d2.287083676008066!3d41.60778317126871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7c8f4f4b0c7%3A0x2d0a7f620951354a!2sPla%C3%A7a%20de%20la%20Porxada%2C%2008401%20Granollers!5e0!3m2!1ses!2ses!4v1700000000000"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen="allowfullscreen"
+    loading="lazy">
+</iframe>
+
+<h2>Formulari de denúncies ambientals</h2>
+<p>Utilitza aquest formulari per informar d’activitats que poden perjudicar el medi ambient a Granollers.</p>
+
+<!-- FORMULARIO DE DENUNCIAS -->
+<form action="#" method="post" enctype="multipart/form-data">
+
+    <!-- Nombre -->
+    <p>
+        <label for="nombre">Nom complet:</label><br />
+        <input type="text" id="nombre" name="nombre" />
+    </p>
+
+    <!-- Email -->
+    <p>
+        <label for="email">Correu electrònic:</label><br />
+        <input type="text" id="email" name="email" />
+    </p>
+
+    <!-- Tipo de denuncia -->
+    <p>
+        <label for="tipo">Tipus d’incidència:</label><br />
+        <select id="tipo" name="tipo">
+            <option value="vertidos">Abocaments il·legals</option>
+            <option value="ruido">Contaminació acústica</option>
+            <option value="quema">Crema de residus</option>
+            <option value="fauna">Danys a la fauna o flora</option>
+            <option value="otros">Altres</option>
+        </select>
+    </p>
+
+    <!-- Descripción -->
+    <p>
+        <label for="descripcion">Descripció de l’incidència:</label><br />
+        <textarea id="descripcion" name="descripcion" rows="5" cols="40"></textarea>
+    </p>
+
+    <!-- Subida de archivos -->
+    <p>
+        <label for="archivo">Pujar imatge o arxiu:</label><br />
+        <input type="file" id="archivo" name="archivo" />
+    </p>
+
+    <!-- Botón de envío -->
+    <p>
+        <input type="submit" value="Enviar denuncia" />
+    </p>
+
+</form>
+    </div>
+
+<!-- Botón -->
+<a id="botonvolver" href="contacto.html">Tornar a l'inici</a>
+
+<!-- PIE -->
+    <div id="footer">
+        <p>Ajuntament – Projecte de sostenibilitat</p>
+    </div>
+
+</body>
+</html>
